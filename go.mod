@@ -1,3 +1,3 @@
-module github.com/Causevest/smt
+module github.com/causevest/smt
 
 go 1.14

@@ -2,9 +2,9 @@
 ## Forked from https://github.com/celestiaorg/smt
 A Go library that implements a Sparse Merkle tree for a key-value map. The tree implements the same optimisations specified in the [Libra whitepaper][libra whitepaper], to reduce the number of hash operations required per tree operation to O(k) where k is the number of non-empty elements in the tree.
 
-[![Tests](https://github.com/Causevest/smt/actions/workflows/test.yml/badge.svg)](https://github.com/Causevest/smt/actions/workflows/test.yml)
-[![codecov](https://codecov.io/gh/Causevest/smt/branch/master/graph/badge.svg?token=U3GGEDSA94)](https://codecov.io/gh/Causevest/smt)
-[![GoDoc](https://godoc.org/github.com/Causevest/smt?status.svg)](https://godoc.org/github.com/Causevest/smt)
+[![Tests](https://github.com/causevest/smt/actions/workflows/test.yml/badge.svg)](https://github.com/causevest/smt/actions/workflows/test.yml)
+[![codecov](https://codecov.io/gh/causevest/smt/branch/master/graph/badge.svg?token=U3GGEDSA94)](https://codecov.io/gh/causevest/smt)
+[![GoDoc](https://godoc.org/github.com/causevest/smt?status.svg)](https://godoc.org/github.com/causevest/smt)
 
 ## Example
 
@@ -15,7 +15,7 @@ import (
 	"crypto/sha256"
 	"fmt"
 
-	"github.com/Causevest/smt"
+	"github.com/causevest/smt"
 )
 
 func main() {
