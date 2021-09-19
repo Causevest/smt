@@ -1,3 +1,3 @@
-module github.com/celestiaorg/smt
+module github.com/Causevest/smt
 
 go 1.14
